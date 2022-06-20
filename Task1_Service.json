@@ -1,0 +1,11 @@
+{
+	"request": {
+		"urlPathPattern": "\\/service\\/([a-zA-Z0-9]+?(\\-|\\/))*[a-zA-Z0-9]+?$",
+		"method": "GET"
+	},
+	"response":{
+		"status": 200,
+		"jsonBody": {"service": "available"},
+		"headers": {"Content-Type": "application/json"}
+	}
+}

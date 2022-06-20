@@ -1,0 +1,12 @@
+{
+	"priority": 10,
+	"request": {
+		"urlPattern": "/[0-9]+?", 
+		"method": "GET"
+	},
+	"response":{
+		"status": 418,
+		"jsonBody": {"error_code":418, "description ":"I'm a teapot"},
+		"headers": {"Content-Type": "application/json"}
+	}
+}
